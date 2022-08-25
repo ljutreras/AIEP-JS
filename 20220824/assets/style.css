@@ -1,0 +1,26 @@
+/* 
+SELECTOR{
+    ATRIBUTO : VALOR;
+    ATRIBUTO : VALOR;
+    }
+*/
+
+/* 1. Selectores por etiqueta */
+header{
+    background-color: black;
+    color: white;
+}
+p{
+    color: #CCbb99;
+}
+
+/* 2. Selectores por clase */
+.enlace-redsocial{
+    color: yellow;
+}
+
+
+/* 3. Selectores por ID */
+#imagen-principal{
+    border: 2px solid green;
+}

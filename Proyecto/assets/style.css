@@ -1,0 +1,107 @@
+:root{
+    --white : #fcfcfc ;
+    --marinBlue : #214449;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 5%;
+    position: relative;
+
+}
+
+header{
+    color: var(--white);
+    background: var(--marinBlue) ;
+    text-align: center;
+    height: 20vh;
+    padding: 50px 0;
+    font-size: 50px;
+}
+
+aside{
+    background-color: var(--white);
+    color: var(--marinBlue);
+    position: fixed;
+    top: 50%;
+    width: 60%;
+    min-height: 350px;
+    padding: 70px;
+    right: 5%;
+    text-align: end;
+}
+
+
+/* ID */
+#principal-text{
+    background: url("./image/futuristic-smart-city-with-5g-global-network-technology.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white);
+    text-align: center;
+    font-size: 40px;
+    height: 50vh;
+    padding-top: 50px ;
+
+}
+
+#titular-text{
+    margin-right: 100px;
+}
+
+#titular-text h2{
+    font-size: 35px;
+    
+}
+#titular-text h4{
+    font-size: 25px;
+
+}
+#titular-text p{
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+#img-profile{
+    position: absolute;
+    right: 70px;
+    top: 70px;
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+#resume{
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+#contact{
+    position: absolute;
+    right: 70px;
+    border: 1px solid red;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    width: 80%;
+    cursor: pointer;
+
+
+}
+
+footer{
+    background: #2d9bac;
+    color: var(--white);
+    font-size: 25px;
+    height: 30vh;
+    padding: 170px 40px 0;
+    text-align: center;
+}
